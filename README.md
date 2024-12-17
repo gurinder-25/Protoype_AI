@@ -27,8 +27,12 @@ The project includes multiple components, such as car physics, configuration fil
 ```
 📂 AI-SelfDriving-Simulation
 |-- car.py                # Handles car physics and movement logic
+|-- road.py
+|-- world.py
+|-- vect2d.py
 |-- config_variables.py   # Stores all configurable variables for the simulation
-|-- config_text.txt       # Configuration file for NEAT algorithm
+|-- config_text.txt      # Configuration file for NEAT algorithm
+|-- node.py
 |-- main.py               # Main file to run the simulation
 |-- README.md             # Project documentation
 ```
